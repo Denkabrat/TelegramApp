@@ -1,0 +1,114 @@
+.whatch {
+    height: 341px;
+    background-color: #979797;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-size: cover;
+}
+
+.backButton {
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatchButton {
+    border-radius: 40px;
+    border: none;
+    min-width: 109px;
+    height: 39px;
+    background: linear-gradient(180deg, #C260F1 0%, #7509A8 100%);
+    color: #FFF;
+
+    font-family: Code Next;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20px
+}
+
+.disabled {
+    opacity: 0.6;
+}
+
+
+.title {
+    color: #FFF;
+
+    font-family: Code Next;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.subtitle {
+    color: #FFF;
+    font-family: Code Next;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 122.327%;
+    margin-bottom: 24px;
+}
+
+.content {
+    margin: 0px 20px;
+    padding-top: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new {
+    padding: 3px 6px;
+    border-radius: 52px;
+    background: linear-gradient(180deg, #D47AFF 0%, #892DB5 100%);
+    text-align: center;
+    color: #FFF;
+    font-family: Code Next;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 40px;
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.videoOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.videoContent {
+    position: relative;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.backButtonImg {
+    margin-left: -1px;
+}

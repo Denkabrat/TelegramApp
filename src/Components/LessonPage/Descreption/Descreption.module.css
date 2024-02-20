@@ -1,0 +1,22 @@
+.sub {
+    color: #090909;
+    font-family: Code Next;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 122.327%;
+    max-width: 390px;
+    margin: 0 20px;
+    margin-top: 16px;
+}
+
+.descreption {
+    padding-left: 20px;
+    margin-top: 24px;
+    color: #000;
+    font-family: Code Next;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    max-width: 430px;
+    /* padding: 24px; */
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.logoFooter {
+    width: 118px;
+    height: 16px;
+}
+
+.foterLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eightLrft {
+    position: absolute;
+    width: 125px;
+    height: 65px;
+    left: -10px;
+    bottom: -10px;
+}
+
+.created {
+
+    font-family: Code Next;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.eightRight {
+    position: absolute;
+    width: 83px;
+    height: 41px;
+    right: 30px;
+    bottom: 10px;
+}

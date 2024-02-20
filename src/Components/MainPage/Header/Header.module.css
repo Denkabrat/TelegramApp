@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    max-width: 430px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 140px;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 3px solid #E2A5FF;
+    width: 56px;
+    height: 56px;
+}
+
+.user {
+    color: #878787;
+    font-family: Code Next;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

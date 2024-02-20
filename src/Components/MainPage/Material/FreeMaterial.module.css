@@ -1,0 +1,117 @@
+    .title {
+        padding-left: 20px;
+        color: #000;
+        font-family: Code Next;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .card {
+        background-size: cover;
+        height: 211px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 20px;
+    }
+
+    .materials {
+        margin-top: 24px;
+
+    }
+
+    .cards {
+        margin: 0 auto;
+        max-width: 430px;
+        overflow-x: auto;
+        margin-top: 16px;
+    }
+
+    .cardBlocks {
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 7px;
+    }
+
+    .new {
+        padding: 3px 6px;
+        border-radius: 52px;
+        background: linear-gradient(180deg, #D47AFF 0%, #892DB5 100%);
+        text-align: center;
+        color: #FFF;
+        font-family: Code Next;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .text {
+        color: #FFF;
+
+        font-family: Code Next;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 121px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .water {
+        height: 20px;
+        padding-left: 4px;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .views {
+        padding: 3px 6px;
+        border-radius: 52px;
+        background: linear-gradient(180deg, #D47AFF 0%, #892DB5 100%);
+        text-align: center;
+        color: #FFF;
+        font-family: Code Next;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 70px;
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .cards::-webkit-scrollbar {
+        height: 7px !important;
+    }
+    .cards::-webkit-scrollbar-track {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+        border-radius: 10px !important;
+    }
+    
+    .cards::-webkit-scrollbar-thumb {
+        border-radius: 10px !important;
+        background-color: rgb(195 105 239) !important;
+    }
+
+    .link {
+        width: 137px;
+        flex-shrink: 0;
+        margin-right: 16px;
+    }
